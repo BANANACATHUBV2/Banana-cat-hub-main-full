@@ -10844,6 +10844,7 @@ gui.IgnoreGuiInset = true
 gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 gui.DisplayOrder = 999999
 gui.Parent = CoreGui
+gui.Visible = false
 
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 300, 0, 75) -- menor
